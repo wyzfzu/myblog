@@ -1,0 +1,14 @@
+log:
+  format: json
+  level: info
+  report_caller: true
+
+app:
+  port: 8080
+
+database:
+  driver: sqlite3
+  url: myblog.db
+
+jwt:
+  secretKey: 5380f236ce385f930cbe5d1205d3a91d
